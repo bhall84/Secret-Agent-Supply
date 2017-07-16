@@ -84,10 +84,38 @@ li{
   margin-top: .75rem;
 }
 
-/* Grid
+/* Gallery
 ________________________________________*/
+section {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
 
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
 
+.product {
+    width: 30%;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.product img {
+    width: 9rem;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.product p {
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* Footer
