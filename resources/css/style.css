@@ -87,7 +87,7 @@ li {
 
 section {
   padding-top    : 3rem;
-  padding-bottom : 4rem;
+  padding-bottom : 2rem;
 }
 
 .gallery {
@@ -110,21 +110,48 @@ section {
 }
 
 .product p {
+  display          : flex;
+  height           : 2.5rem;
+  margin-bottom    : 0;
+  color            : white;
+  background-color : black;
+  align-items      : center;
+  justify-content  : center;
+}
+
+/* Location and Hours _____________________________ */
+
+.bottom-wrapper {
   display         : flex;
-  height          : 2rem;
-  align-items     : center;
-  justify-content : center;
+  justify-content : space-between;
+}
+
+.hours,
+.location {
+  flex-basis : 35%;
+}
+
+#hours,
+#location {
+  display          : flex;
+  height           : 3rem;
+  padding-left     : 2rem;
+  color            : white;
+  background-color : black;
+  align-items      : center;
 }
 
 /* Footer ________________________________________ */
 
 footer {
-  height           : 5rem;
+  display          : flex;
+  height           : 10rem;
   color            : white;
   background-color : black;
   text-align       : left;
 }
 
 footer p {
-  padding-top : 2rem;
+  display     : flex;
+  align-items : center;
 }
